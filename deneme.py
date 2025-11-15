@@ -9,3 +9,7 @@ for item in v_S:
 
 v_S = {subset: df.loc[df["missing_steps"] == subset, "is_correct"].values[0] for subset in all_subsets_missing}
 print(v_S)
+
+
+
+# DENEMEEEEEEEEEEE
