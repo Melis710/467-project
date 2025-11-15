@@ -19,7 +19,9 @@ def get_missing_steps(row, steps):
     for step in steps:
         if row[f'step{step}_missing'] == 0:
             missing_steps.append(step)
+    ## TESTTT
 
+    
     ##############################################################################
     ### STUB: INSERT CODE HERE: Get missing steps as a tuple for each row.###
     ##############################################################################
